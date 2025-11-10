@@ -1,14 +1,13 @@
 <?php
+if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
+    die;
+}
 
 use Bitrix\Highloadblock\HighloadBlockTable;
 use Bitrix\Main\Context;
 use Bitrix\Main\Data\Cache;
 use Bitrix\Main\Loader;
 use Bitrix\Main\UserTable;
-
-if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
-    die;
-}
 
 class AvailableCarsComponent extends CBitrixComponent
 {
